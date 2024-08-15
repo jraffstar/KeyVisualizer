@@ -4,4 +4,3 @@ global.upbind = keyboard_lastkey
 	ini_write_real("Keybinds","upbind",global.upbind);
 	ini_close();
 }
-

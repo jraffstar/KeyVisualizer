@@ -6,8 +6,8 @@
   "name":"E2",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"BINDS",
+    "path":"folders/Objects/BINDS.yy",
   },
   "parentObjectId":null,
   "persistent":false,

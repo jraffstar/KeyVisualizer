@@ -11,8 +11,8 @@
   "name":"Dashset",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"SET",
+    "path":"folders/Objects/SET.yy",
   },
   "parentObjectId":null,
   "persistent":false,

@@ -5,6 +5,7 @@ if file_exists("Config.ini"){
 	if (keyboard_check_direct(string(upbind)))
 	{
 		instance_create_layer(640, 320,"Test", UP2)	
+
 	}
 }
 else {
