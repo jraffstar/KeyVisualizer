@@ -4,13 +4,13 @@ if file_exists("Config.ini"){
 	ini_close();
 	if (keyboard_check_direct(string(leftbind)))
 	{
-		instance_create_layer(576, 384,"Test", LEFT2)
+		instance_create_layer(LEFT1.x, LEFT1.y,"Test", LEFT2)
 	}
 }
 
 else {
 if (keyboard_check_direct(string(global.leftbind)))
 {
-instance_create_layer(576, 384,"Test", LEFT2)	
+instance_create_layer(LEFT1.x, LEFT1.y,"Test", LEFT2)	
 }
 }

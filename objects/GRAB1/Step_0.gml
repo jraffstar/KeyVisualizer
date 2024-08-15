@@ -4,13 +4,13 @@ if file_exists("Config.ini"){
 	ini_close();
 	if (keyboard_check_direct(string(grabbind)))
 	{
-	instance_create_layer(352, 384,"Test", GRAB2)	
+	instance_create_layer(GRAB1.x, GRAB1.y,"Test", GRAB2)	
 	}
 }
 
 else {
 if (keyboard_check_direct(string(global.grabbind)))
 {
-instance_create_layer(352, 384,"Test", GRAB2)	
+instance_create_layer(GRAB1.x, GRAB1.y,"Test", GRAB2)	
 }
 }
